@@ -1,0 +1,34 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "Personal boilerplate for Eleventy projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "checks": "html-validate . && eslint .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "serve": "npx @11ty/eleventy --serve",
+    "validate": "html-validate ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melanierichards/palindrome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melanierichards/palindrome/issues"
+  },
+  "homepage": "https://github.com/melanierichards/palindrome#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "eslint": "^7.24.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "html-validate": "^4.9.0"
+  }
+}

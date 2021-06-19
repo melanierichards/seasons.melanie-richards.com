@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+  "rules": {
+    "no-redundant-role": "warn",
+    "no-trailing-whitespace": "off"
+  }
+}
