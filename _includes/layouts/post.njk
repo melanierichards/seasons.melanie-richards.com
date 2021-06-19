@@ -1,3 +1,74 @@
 ---
 layout: layouts/global.njk
 ---
+
+{% set seasonSlug = page.fileSlug %}
+{% set seasonData = seasons[seasonSlug] %}
+
+<div class="season-sections">
+
+  <div class="season-section">
+    <p class="h2">{{ post.dateRange }}</p>
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+  </div>
+
+  <div class="season-section">
+    <h2>{{ seasonData.solsticeTitle }}</h2>
+    <p>{{ seasonData.solsticeDesc }}</p>
+    {% set ideaListSlug = "solstice" %}
+    {% set ideaList = seasonData.solsticeIdeas %}
+    {% include "c-ideas.njk" %}
+  </div>
+
+  <div class="season-section">
+    <h2>Activities</h2>
+    {% set ideaListSlug = "activities" %}
+    {% set ideaList = seasonData.activities %}
+    {% include "c-ideas.njk" %}
+
+    <h2>Events</h2>
+    {% set ideaListSlug = "events" %}
+    {% set ideaList = seasonData.events %}
+    {% include "c-ideas.njk" %}
+  </div>
+
+  <div class="season-section">
+    <h2>Produce</h2>
+    {% set ideaListSlug = "produce" %}
+    {% set ideaList = seasonData.produce %}
+    {% include "c-ideas.njk" %}
+  </div>
+
+</div>
+
+<!-- PAGINATION -->
+{% set currentItemIndex = 0 %}
+
+{% for item in collections.posts %}
+  {% if item.url == page.url %}
+    {% set currentItemIndex = loop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% set prevItemIndex = currentItemIndex - 1 %}
+{% set nextItemIndex = currentItemIndex + 1 %}
+
+<nav class="c-pagination c-pagination--post" aria-labelledby="pagination-heading">
+  <h2 id="pagination-heading" class="u-vis-hidden">Navigate by season</h2>
+  {% if prevItemIndex >= 0 %}
+    {% set prev = collections.posts[prevItemIndex] %}
+    <a class="c-pagination__older" href="{{ prev.url }}">
+      <span>{{ prev.data.title }}</span>
+    </a>
+  {% endif %}
+  <a href="/" class="c-pagination__all">
+    <span>All seasons</span>
+  </a>
+  {% if nextItemIndex < collections.posts.length %}
+    {% set next = collections.posts[nextItemIndex] %}
+    <a class="c-pagination__newer" href="{{ next.url }}">
+      <span>{{ next.data.title }}</span>
+    </a>
+  {% endif %}
+</nav>

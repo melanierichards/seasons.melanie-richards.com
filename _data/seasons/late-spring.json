@@ -1,0 +1,21 @@
+{
+  "solsticeTitle": "Beltane",
+  "solsticeDesc": "text goes here",
+  "solsticeIdeas": [
+    {
+      "text": "Here's some text"
+    }
+  ],
+  "activities": [
+    {
+      "text": "Go hiking",
+      "url": "https://wta.org"
+    },
+    {
+      "text": "Visit ALL the parks!"
+    },
+    {
+      "text": "Keep an eye out for bunnies everywhere"
+    }
+  ]
+}

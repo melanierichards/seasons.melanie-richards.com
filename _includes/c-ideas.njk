@@ -1,0 +1,18 @@
+{% if ideaList|length > 0 %}
+  <ul role="list" class="c-ideas c-ideas--{{ ideaListSlug }}">
+    {% for item in ideaList %}
+      <li>
+        {% if item.url %}
+          <a href="{{ item.url }}">{{ item.text }}</a>
+        {% else %}
+          {{ item.text }}
+        {% endif %}
+        {% if item.desc %}
+          <span class="c-idea__desc">{{ item.desc }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="c-empty-ideas">No ideas listed yet</p>
+{% endif %}
