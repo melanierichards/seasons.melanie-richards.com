@@ -4,11 +4,14 @@
   "description": "Personal boilerplate for Eleventy projects",
   "main": "index.js",
   "scripts": {
+    "sass": "npx sass --style=compressed assets/sass/style.scss assets/css/style.css",
+    "watch:sass": "npm run sass -- --watch",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "start": "npm-run-all sass --parallel watch:*",
     "build": "npx @11ty/eleventy",
     "checks": "html-validate . && eslint .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "serve": "npx @11ty/eleventy --serve",
     "validate": "html-validate ."
   },
   "repository": {
@@ -29,6 +32,11 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
-    "html-validate": "^4.9.0"
+    "html-validate": "^4.9.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.2.0",
+    "sass": "^1.35.1"
   }
 }
