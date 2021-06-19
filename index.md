@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 slug: home
-title: My Cool Website
+title: Explore by season
 ---
 
-Here is some content!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo facilisis enim, quis mattis sem mollis eu. Integer orci risus, posuere vel diam sed, rhoncus sodales arcu. Nunc non porttitor ante. Duis vitae velit ut lorem facilisis dictum.

@@ -1,7 +1,7 @@
 {
-  "name": "palindrome",
+  "name": "seasons.melanie-richards.com",
   "version": "1.0.0",
-  "description": "Personal boilerplate for Eleventy projects",
+  "description": "Ideas for living according to the seasons in the Pacific Northwest",
   "main": "index.js",
   "scripts": {
     "sass": "npx sass --style=compressed assets/sass/style.scss assets/css/style.css",
@@ -16,15 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/melanierichards/palindrome.git"
+    "url": "git+https://github.com/melanierichards/seasons.melanie-richards.com.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Melanie Richards",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/melanierichards/palindrome/issues"
+    "url": "https://github.com/melanierichards/seasons.melanie-richards.com/issues"
   },
-  "homepage": "https://github.com/melanierichards/palindrome#readme",
+  "homepage": "https://github.com/melanierichards/seasons.melanie-richards.com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "eslint": "^7.24.0",

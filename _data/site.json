@@ -1,10 +1,9 @@
 {
-  "domain": "my.melanie-richards.com",
-  "url": "https://my.melanie-richards.com",
-  "title": "",
-  "description": "",
+  "domain": "seasons.melanie-richards.com",
+  "url": "https://seasons.melanie-richards.com",
+  "title": "SEA — Seasons",
+  "description": "Ideas for living according to the seasons in the Pacific Northwest",
   "images": "/assets/images",
   "imagesContent": "/assets/images/content",
-  "videosContent": "/assets/videos/content",
-  "email": ""
+  "videosContent": "/assets/videos/content"
 }

@@ -1,6 +1,24 @@
 ---
 layout: layouts/global.njk
+pagination:
+  data: collections.posts
+  size: 8
+  alias: posts
 ---
 
-<h1>{{ title }}</h1>
-{{ content | safe }}
+<h1 class="u-vis-hidden">{{ title }}</h1>
+<div class="site-masthead">
+  {{ content | safe }}
+</div>
+
+<ul class="u-bare-list season-items">
+  {% for post in posts %}
+    <li class="season-item">
+      <a href="{{ post.url }}" class="season-item__link">
+        <img src="/assets/images/season-icon-{{ post.data.title | slug }}.svg" alt="">
+        <span class="season-item__dates">{{ post.data.dateRange }}</span>
+        <span class="season-item__title">{{ post.data.title }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
