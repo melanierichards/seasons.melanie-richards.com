@@ -1,0 +1,160 @@
+/*
+ *  =============================================
+ *  HOME
+ *  =============================================
+ */
+
+.site-masthead {
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  max-width: 34em;
+}
+
+.season-items {
+  @include bare-list();
+}
+
+.season-item {
+  @include bare-list-item();
+  outline: 1px solid;
+  padding: 1rem;
+}
+
+.season-item__link {
+  flex: 1;
+  display: block;
+  position: relative;
+  padding: 1rem 1rem 2rem;
+  font-family: $font-heading;
+  line-height: 1.1;
+  text-align: center;
+  transition: background-color ease-in-out 200ms;
+
+  &::after {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    border: 1px solid;
+    content: "";
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity ease-in-out 200ms;
+  }
+
+  &:hover, &:focus {
+    color: currentColor;
+
+    &::after {
+      opacity: .9;
+    }
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.season-item__link:link, .season-item__link:visited {
+  border-bottom: 0;
+}
+
+.season-item__icon {
+  width: 100%;
+  max-width: 16rem;
+  height: auto;
+}
+
+.season-item__dates {
+  @include all-caps();
+  display: block;
+  margin-top: 1rem;
+}
+
+.season-item__title {
+  display: block;
+  margin-top: .25rem;
+  font-size: 1.75em;
+}
+
+@media (min-width: $bp-m) {
+  .body--home main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-masthead {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .season-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+  }
+
+  .season-item {
+    display: flex;
+  }
+}
+
+@media (min-width: $bp-l) {
+  .site-masthead {
+    padding: 4rem 1rem;
+  }
+
+  .season-items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*
+ *  --------------------------------------------
+ *  SEASON ITEM BACKGROUNDS
+ *  --------------------------------------------
+ */
+
+.season-item__link--late-winter:hover,
+.season-item__link--late-winter:focus {
+  background-color: #edf3f4;
+}
+
+.season-item__link--early-spring:hover,
+.season-item__link--early-spring:focus {
+  background-color: #f2f7f4;
+}
+
+.season-item__link--late-spring:hover,
+.season-item__link--late-spring:focus {
+  background-color: #f4f8f3;
+}
+
+.season-item__link--early-summer:hover,
+.season-item__link--early-summer:focus {
+  background-color: #f2f2f0;
+}
+
+.season-item__link--late-summer:hover,
+.season-item__link--late-summer:focus {
+  background-color: #f2f1f0;
+}
+
+.season-item__link--early-autumn:hover,
+.season-item__link--early-autumn:focus {
+  background-color: #f4f2f2;
+}
+
+.season-item__link--late-autumn:hover,
+.season-item__link--late-autumn:focus {
+  background-color: #f2f0f1;
+}
+
+.season-item__link--early-winter:hover,
+.season-item__link--early-winter:focus {
+  background-color: #f2f2f5;
+}

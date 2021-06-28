@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url("../fonts/LibreBaskerville-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url("../fonts/YoungSerif-Regular.woff2") format("woff2"),
+       url("../fonts/YoungSerif-Regular.woff") format("woff"),
+       url("../fonts/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

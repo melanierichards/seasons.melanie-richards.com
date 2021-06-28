@@ -14,9 +14,9 @@ pagination:
 <ul class="u-bare-list season-items">
   {% for post in posts %}
     <li class="season-item">
-      <a href="{{ post.url }}" class="season-item__link">
-        <img src="/assets/images/season-icon-{{ post.data.title | slug }}.svg" alt="">
-        <span class="season-item__dates">{{ post.data.dateRange }}</span>
+      <a href="{{ post.url }}" class="season-item__link season-item__link--{{ post.data.title | slug }}">
+        <img class="season-item__icon" src="/assets/images/season-icon-{{ post.data.title | slug }}.svg" alt="">
+        <span class="h2 season-item__dates">{{ post.data.dateRange }}</span>
         <span class="season-item__title">{{ post.data.title }}</span>
       </a>
     </li>

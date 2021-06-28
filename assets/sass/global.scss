@@ -1,0 +1,121 @@
+/*
+ *  =============================================
+ *  GLOBAL
+ *  =============================================
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font: 1em/1.5 $font-body;
+  color: #3b3b3b;
+}
+
+:focus {
+  outline: 2px solid;
+  outline-offset: 1px;
+}
+
+::selection {
+  background: rgba(0, 0, 0, .66);
+  color: #fff;
+}
+
+::-moz-selection {
+  background: rgba(0, 0, 0, .66);
+  color: #fff;
+}
+
+a:link, a:visited {
+  border-bottom: 1px solid;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  border-bottom: 1px dashed transparent;
+  background: rgba(0, 0, 0, .66);
+  color: #fff;
+}
+
+/*
+ *  --------------------------------------------
+ *  TEXT
+ *  --------------------------------------------
+ */
+
+h1, h2, .h2 {
+  font: 2rem/1.1 $font-heading;
+}
+
+h2, .h2 {
+  font-size: 1rem;
+}
+
+/*
+ *  --------------------------------------------
+ *  HEADER + FOOTER
+ *  --------------------------------------------
+ */
+
+.site-header,
+.site-footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.site-header {
+  border-bottom: 3px double;
+}
+
+.site-footer {
+  border-top: 3px double;
+  font-size: .875em;
+}
+
+.site-header__home {
+  @include all-caps();
+  font: 1.5em/1.1 $font-heading;
+}
+
+.site-header__home:link, .site-header__home:visited {
+  border-bottom: 0;
+}
+
+.site-footer__github {
+  display: inline-block;
+}
+
+/*
+ *  --------------------------------------------
+ *  MAIN
+ *  --------------------------------------------
+ */
+
+main {
+  flex: 1;
+}
+
+/*
+ *  =============================================
+ *  UTILITIES
+ *  Anything prefixed with "u-"
+ *  =============================================
+ */
+
+ .u-vis-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

@@ -1,0 +1,47 @@
+/*
+ *  =============================================
+ *  SASS HELPERS
+ *  =============================================
+ */
+
+/*
+ *  --------------------------------------------
+ *  BREAKPOINTS
+ *  --------------------------------------------
+ */
+
+$bp-s: 32em;
+$bp-m: 48em;
+$bp-l: 68em;
+$bp-xl: 75em;
+
+/*
+ *  --------------------------------------------
+ *  FONTS
+ *  --------------------------------------------
+ */
+
+$font-heading: "Young Serif", Georgia, serif;
+$font-body: "Libre Baskerville", Georgia, serif;
+
+/*
+ *  --------------------------------------------
+ *  MIXINS
+ *  --------------------------------------------
+ */
+
+@mixin all-caps() {
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+@mixin bare-list() {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+@mixin bare-list-item() {
+  margin-left: 0;
+    padding-left: 0;
+}
