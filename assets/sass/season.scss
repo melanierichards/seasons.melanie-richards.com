@@ -1,0 +1,283 @@
+/*
+ *  =============================================
+ *  SEASON
+ *  =============================================
+ */
+
+/*
+ *  --------------------------------------------
+ *  SEASON SECTIONS
+ *  --------------------------------------------
+ */
+
+.season-sections {
+  flex: 1;
+}
+
+.season-section {
+  padding: $space-s;
+}
+
+.season-section + .season-section {
+  border-top: 1px solid;
+}
+
+.season-masthead {
+  text-align: center;
+}
+
+.season-masthead__dates {
+  margin: 0 auto $space-xxs;
+}
+
+.season-masthead__icon {
+  margin: $space-s auto;
+}
+
+.season-masthead__desc {
+  text-align: left;
+}
+
+.c-ideas {
+  list-style: none;
+  
+  li + li {
+    margin-top: $space-xxs;
+  }
+}
+
+.c-ideas--solstice {
+  padding-left: 1em;
+  list-style: circle;
+}
+
+.c-ideas--produce {
+  columns: 3 6em;
+  column-gap: $space-s;
+}
+
+@media (min-width: $bp-m) and (max-width: $bp-l) {
+  .season-section {
+    padding: $space-m;
+  }
+
+  .season-section > * {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 36rem;
+  }
+}
+
+@media (min-width: $bp-l) {
+  .season-sections {
+    display: flex;
+  }
+
+  .season-section {
+    flex: 1;
+  }
+
+  .season-section + .season-section {
+    border-top: 0;
+    border-left: 1px solid;
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .season-section {
+    padding: $space-m;
+  }
+}
+
+/*
+ *  --------------------------------------------
+ *  PAGINATION
+ *  --------------------------------------------
+ */
+
+.c-pagination {
+  @include all-caps();
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+  justify-content: center;
+  grid-gap: $space-m;
+  padding: $space-s;
+  border-top: 1px solid;
+  font: 1rem/1 $font-heading;
+
+  a:link, a:visited {
+    position: relative;
+    border-bottom: 0;
+
+    span {
+      padding: 2px 0;
+      border-bottom: 1px solid rgba(0,0,0,0);
+      transition: border-bottom-color ease-in-out 200ms;
+    }
+  }
+
+  a:hover {
+    background-color: transparent;
+    color: #000;
+
+    span {
+      border-bottom-color: rgba(0,0,0,.5);
+    }
+  }
+}
+
+.c-pagination__icon {
+  position: absolute;
+  top: calc(50% - .5em);
+  left: 0;
+  width: auto;
+  height: 1em;
+  transition: transform ease-in-out 200ms;
+}
+
+.c-pagination__older {
+  padding-left: 1.25em;
+
+  &:hover .c-pagination__icon {
+    transform: translateX(-.25em);
+  }
+}
+
+.c-pagination__all {
+  text-align: center;
+
+  span {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:after {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 1.375rem);
+    left: calc(50% - 1.375rem);
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 1px solid;
+    border-radius: 50%;
+    content: "";
+    transition: transform ease-in-out 200ms;
+  }
+
+  &:hover:after {
+    transform: scale(1.25);
+  }
+}
+
+.c-pagination__newer {
+  padding-right: 1.25em;
+
+  .c-pagination__icon {
+    left: auto;
+    right: 0;
+  }
+
+  &:hover .c-pagination__icon {
+    transform: translateX(.25em);
+  }
+}
+
+@media (min-width: $bp-m) {
+  .c-pagination {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .c-pagination__older {
+    grid-column: 1;
+    justify-self: start;
+  }
+
+  .c-pagination__all {
+    grid-column: 2;
+    justify-self: center;
+  }
+
+  .c-pagination__newer {
+    grid-column: 3;
+    justify-self: end;
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .c-pagination {
+    padding: $space-s $space-m;
+  }
+}
+
+/*
+ *  --------------------------------------------
+ *  SEASON-SPECIFIC COLORS
+ *  --------------------------------------------
+ */
+
+.body--late-winter {
+  background-color: $color-late-winter;
+
+  .c-pagination__all span {
+    background-color: $color-late-winter;
+  }
+}
+
+.body--early-spring {
+  background-color: $color-early-spring;
+
+  .c-pagination__all span {
+    background-color: $color-early-spring;
+  }
+}
+
+.body--late-spring {
+  background-color: $color-late-spring;
+
+  .c-pagination__all span {
+    background-color: $color-late-spring;
+  }
+}
+
+.body--early-summer {
+  background-color: $color-early-summer;
+
+  .c-pagination__all span {
+    background-color: $color-early-summer;
+  }
+}
+
+.body--late-summer {
+  background-color: $color-late-summer;
+
+  .c-pagination__all span {
+    background-color: $color-late-summer;
+  }
+}
+
+.body--early-autumn {
+  background-color: $color-early-autumn;
+
+  .c-pagination__all span {
+    background-color: $color-early-autumn;
+  }
+}
+
+.body--late-autumn {
+  background-color: $color-late-autumn;
+
+  .c-pagination__all span {
+    background-color: $color-late-autumn;
+  }
+}
+
+.body--early-winter {
+  background-color: $color-early-winter;
+
+  .c-pagination__all span {
+    background-color: $color-late-winter;
+  }
+}

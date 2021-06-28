@@ -1,9 +1,24 @@
 {
   "solsticeTitle": "Beltane",
-  "solsticeDesc": "text goes here",
+  "solsticeDesc": "Pagan traditions observe the first day of late spring as Beltane, a celebration of fertility. Beltane is a great time to take action on projects, creative and otherwise. Symbols include dairy, honey, and oats; flowers, and honey bees.",
   "solsticeIdeas": [
     {
-      "text": "Here's some text"
+      "text": "Start a new project, or put new energy into an existing one"
+    },
+    {
+      "text": "Decorate with flowers"
+    },
+    {
+      "text": "Go for a neighborhood walk and look for blossoms"
+    },
+    {
+      "text": "Have a bonfire with loved ones"
+    },
+    {
+      "text": "Make a cheese plate"
+    },
+    {
+      "text": "Drink some floral tea—maybe a nice lavender with lemon?"
     }
   ],
   "activities": [
@@ -17,5 +32,25 @@
     {
       "text": "Keep an eye out for bunnies everywhere"
     }
+  ],
+  "produce": [
+    "Apricots",
+    "Asparagus",
+    "Basil",
+    "Beets",
+    "Boysenberries",
+    "Broccoli",
+    "Cabbage",
+    "Carrots",
+    "Chard",
+    "Cherries",
+    "Collard greens",
+    "Fennel",
+    "Green onions",
+    "Greens",
+    "Kale",
+    "Lettuce",
+    "Mint",
+    "Morels"
   ]
 }

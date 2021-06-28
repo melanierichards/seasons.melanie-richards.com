@@ -7,15 +7,19 @@ layout: layouts/global.njk
 
 <div class="season-sections">
 
-  <div class="season-section">
-    <p class="h2">{{ post.dateRange }}</p>
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
+  <div class="season-section season-masthead">
+    <h1>
+      <span class="h2 season-masthead__dates">{{ dateRange }}</span>
+      {{ title }}
+    </h1>
+    <img class="season-masthead__icon" src="/assets/images/simple-{{ title | slug }}.svg" alt="">
+    <div class="season-masthead__desc">{{ content | safe }}</div>
   </div>
 
   <div class="season-section">
     <h2>{{ seasonData.solsticeTitle }}</h2>
     <p>{{ seasonData.solsticeDesc }}</p>
+    <p>Ideas for {{ seasonData.solsticeTitle }}:</p>
     {% set ideaListSlug = "solstice" %}
     {% set ideaList = seasonData.solsticeIdeas %}
     {% include "c-ideas.njk" %}
@@ -59,6 +63,9 @@ layout: layouts/global.njk
   {% if prevItemIndex >= 0 %}
     {% set prev = collections.posts[prevItemIndex] %}
     <a class="c-pagination__older" href="{{ prev.url }}">
+      <svg focusable="false" aria-hidden="true" class="c-pagination__icon" viewBox="0 0 12 13" xmlns="http://www.w3.org/2000/svg">
+        <use xlink:href="#pagination-older" />
+      </svg>
       <span>{{ prev.data.title }}</span>
     </a>
   {% endif %}
@@ -68,6 +75,9 @@ layout: layouts/global.njk
   {% if nextItemIndex < collections.posts.length %}
     {% set next = collections.posts[nextItemIndex] %}
     <a class="c-pagination__newer" href="{{ next.url }}">
+      <svg focusable="false" aria-hidden="true" class="c-pagination__icon" viewBox="0 0 12 13" x="-13" xmlns="http://www.w3.org/2000/svg">
+        <use xlink:href="#pagination-newer" />
+      </svg>
       <span>{{ next.data.title }}</span>
     </a>
   {% endif %}

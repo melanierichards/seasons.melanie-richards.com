@@ -2,13 +2,17 @@
   <ul role="list" class="c-ideas c-ideas--{{ ideaListSlug }}">
     {% for item in ideaList %}
       <li>
-        {% if item.url %}
-          <a href="{{ item.url }}">{{ item.text }}</a>
+        {% if ideaListSlug == "produce" %}
+          {{ item }}
         {% else %}
-          {{ item.text }}
-        {% endif %}
-        {% if item.desc %}
-          <span class="c-idea__desc">{{ item.desc }}</span>
+          {% if item.url %}
+            <a href="{{ item.url }}">{{ item.text }}</a>
+          {% else %}
+            {{ item.text }}
+          {% endif %}
+          {% if item.desc %}
+            <span class="c-idea__desc">{{ item.desc }}</span>
+          {% endif %}
         {% endif %}
       </li>
     {% endfor %}
