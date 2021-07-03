@@ -47,6 +47,7 @@ $font-body: "Libre Baskerville", Georgia, serif;
 }
 
 @mixin bare-list() {
+  margin-top: 0;
   margin-left: 0;
   padding-left: 0;
   list-style: none;
@@ -54,5 +55,5 @@ $font-body: "Libre Baskerville", Georgia, serif;
 
 @mixin bare-list-item() {
   margin-left: 0;
-    padding-left: 0;
+  padding-left: 0;
 }
