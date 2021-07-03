@@ -52,6 +52,10 @@
     &::after {
       opacity: .9;
     }
+
+    .season-item__arrow {
+      transform: translateX(.125em);
+    }
   }
 
   &:focus {
@@ -71,6 +75,7 @@
   display: inline;
   width: auto;
   height: .5em;
+  transition: transform ease-in-out 200ms;
 }
 
 @media (min-width: $bp-m) {
