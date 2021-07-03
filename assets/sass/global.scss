@@ -51,7 +51,7 @@ a:hover {
  *  --------------------------------------------
  */
 
-h1, h2, .h2 {
+h1, .h1, h2, .h2 {
   font: 2rem/1.1 $font-heading;
 }
 
@@ -146,4 +146,28 @@ main {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+/*
+ *  =============================================
+ *  COMPONENTS
+ *  =============================================
+ */
+
+/*
+ *  --------------------------------------------
+ *  COMPONENT: SEASON INFO
+ *  --------------------------------------------
+ */
+
+.c-season-info {
+  text-align: center;
+}
+
+.c-season-info__dates {
+  margin: $space-s auto $space-xxs;
+}
+
+.c-season-info__icon {
+  margin: 0 auto;
 }

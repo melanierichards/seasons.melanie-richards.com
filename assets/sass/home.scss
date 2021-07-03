@@ -24,7 +24,7 @@
   flex: 1;
   display: block;
   position: relative;
-  padding: 1rem 1rem 2rem;
+  padding: $space-m;
   font-family: $font-heading;
   line-height: 1.1;
   text-align: center;
@@ -61,16 +61,8 @@
   border-bottom: 0;
 }
 
-.season-item__dates {
-  @include all-caps();
-  display: block;
-  margin-top: 1rem;
-}
-
 .season-item__title {
-  display: block;
-  margin-top: .25rem;
-  font-size: 1.75em;
+  font-size: 1.75rem;
 }
 
 @media (min-width: $bp-m) {

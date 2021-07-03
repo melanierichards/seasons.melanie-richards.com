@@ -13,13 +13,13 @@ pagination:
 
 <ul class="u-bare-list season-items">
   {% for post in posts %}
-    <li class="season-item">
+    <li class="c-season-info season-item">
       <a href="{{ post.url }}" class="season-item__link season-item__link--{{ post.data.title | slug }}">
         {% set season_slug = post.data.title | slug %}
         {% set season_svg = '/assets/images/simple-' + season_slug + '.svg' %}
         {{ season_svg | svgContents | safe }}
-        <span class="h2 season-item__dates">{{ post.data.dateRange }}</span>
-        <span class="season-item__title">{{ post.data.title }}</span>
+        <span class="h2 c-season-info__dates">{{ post.data.dateRange }}</span>
+        <span class="h1 c-season-info__title season-item__title">{{ post.data.title }}</span>
       </a>
     </li>
   {% endfor %}

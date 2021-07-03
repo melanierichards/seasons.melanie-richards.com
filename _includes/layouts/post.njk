@@ -7,12 +7,14 @@ layout: layouts/global.njk
 
 <div class="season-sections">
 
-  <div class="season-section season-masthead">
+  <div class="season-section c-season-info season-masthead">
     <h1>
-      <span class="h2 season-masthead__dates">{{ dateRange }}</span>
+      <span class="h2 c-season-info__dates">{{ dateRange }}</span>
       {{ title }}
     </h1>
-    <img class="season-masthead__icon" src="/assets/images/simple-{{ title | slug }}.svg" alt="">
+    {% set season_slug = title | slug %}
+    {% set season_svg = '/assets/images/simple-' + season_slug + '.svg' %}
+    {{ season_svg | svgContents | safe }}
     <div class="season-masthead__desc">{{ content | safe }}</div>
   </div>
 
