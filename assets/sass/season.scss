@@ -161,6 +161,14 @@
   &:hover:after {
     transform: scale(1.25);
   }
+
+  &:focus {
+    outline: 0;
+
+    span {
+      outline: 2px solid;
+    }
+  }
 }
 
 .c-pagination__newer {
