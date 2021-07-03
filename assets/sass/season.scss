@@ -104,17 +104,17 @@
 
     span {
       padding: 2px 0;
-      border-bottom: 1px solid rgba(0,0,0,0);
+      border-bottom: 1px solid var(--color-pagination-link-border);
       transition: border-bottom-color ease-in-out 200ms;
     }
   }
 
   a:hover {
     background-color: transparent;
-    color: #000;
+    color: var(--color-pagination-link-hover);
 
     span {
-      border-bottom-color: rgba(0,0,0,.5);
+      border-bottom-color: var(--color-pagination-link-hover-border);
     }
   }
 }
@@ -211,65 +211,65 @@
  */
 
 .body--late-winter {
-  background-color: $color-late-winter;
+  background-color: var(--color-late-winter);
 
   .c-pagination__all span {
-    background-color: $color-late-winter;
+    background-color: var(--color-late-winter);
   }
 }
 
 .body--early-spring {
-  background-color: $color-early-spring;
+  background-color: var(--color-early-spring);
 
   .c-pagination__all span {
-    background-color: $color-early-spring;
+    background-color: var(--color-early-spring);
   }
 }
 
 .body--late-spring {
-  background-color: $color-late-spring;
+  background-color: var(--color-late-spring);
 
   .c-pagination__all span {
-    background-color: $color-late-spring;
+    background-color: var(--color-late-spring);
   }
 }
 
 .body--early-summer {
-  background-color: $color-early-summer;
+  background-color: var(--color-early-summer);
 
   .c-pagination__all span {
-    background-color: $color-early-summer;
+    background-color: var(--color-early-summer);
   }
 }
 
 .body--late-summer {
-  background-color: $color-late-summer;
+  background-color: var(--color-late-summer);
 
   .c-pagination__all span {
-    background-color: $color-late-summer;
+    background-color: var(--color-late-summer);
   }
 }
 
 .body--early-autumn {
-  background-color: $color-early-autumn;
+  background-color: var(--color-early-autumn);
 
   .c-pagination__all span {
-    background-color: $color-early-autumn;
+    background-color: var(--color-early-autumn);
   }
 }
 
 .body--late-autumn {
-  background-color: $color-late-autumn;
+  background-color: var(--color-late-autumn);
 
   .c-pagination__all span {
-    background-color: $color-late-autumn;
+    background-color: var(--color-late-autumn);
   }
 }
 
 .body--early-winter {
-  background-color: $color-early-winter;
+  background-color: var(--color-early-winter);
 
   .c-pagination__all span {
-    background-color: $color-late-winter;
+    background-color: var(--color-late-winter);
   }
 }

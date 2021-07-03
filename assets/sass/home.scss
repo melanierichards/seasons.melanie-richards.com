@@ -16,7 +16,7 @@
 
 .season-item {
   @include bare-list-item();
-  outline: 1px solid;
+  outline: 1px solid var(--color-lines);
   padding: $space-s;
 }
 
@@ -44,9 +44,11 @@
     transition: opacity ease-in-out 200ms;
   }
 
-  &:hover, &:focus {
+  &:link, &:visited {
     color: currentColor;
+  }
 
+  &:hover, &:focus {
     &::after {
       opacity: .9;
     }
@@ -63,6 +65,12 @@
 
 .season-item__title {
   font-size: 1.75rem;
+}
+
+.season-item__arrow {
+  display: inline;
+  width: auto;
+  height: .5em;
 }
 
 @media (min-width: $bp-m) {
@@ -107,40 +115,40 @@
 
 .season-item__link--late-winter:hover,
 .season-item__link--late-winter:focus {
-  background-color: $color-late-winter;
+  background-color: var(--color-late-winter);
 }
 
 .season-item__link--early-spring:hover,
 .season-item__link--early-spring:focus {
-  background-color: $color-early-spring;
+  background-color: var(--color-early-spring);
 }
 
 .season-item__link--late-spring:hover,
 .season-item__link--late-spring:focus {
-  background-color: $color-late-spring;
+  background-color: var(--color-late-spring);
 }
 
 .season-item__link--early-summer:hover,
 .season-item__link--early-summer:focus {
-  background-color: $color-early-summer;
+  background-color: var(--color-early-summer);
 }
 
 .season-item__link--late-summer:hover,
 .season-item__link--late-summer:focus {
-  background-color: $color-late-summer;
+  background-color: var(--color-late-summer);
 }
 
 .season-item__link--early-autumn:hover,
 .season-item__link--early-autumn:focus {
-  background-color: $color-early-autumn
+  background-color: var(--color-early-autumn);
 }
 
 .season-item__link--late-autumn:hover,
 .season-item__link--late-autumn:focus {
-  background-color: $color-late-autumn;
+  background-color: var(--color-late-autumn);
 }
 
 .season-item__link--early-winter:hover,
 .season-item__link--early-winter:focus {
-  background-color: $color-early-winter;
+  background-color: var(--color-early-winter);
 }

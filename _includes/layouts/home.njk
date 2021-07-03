@@ -19,7 +19,12 @@ pagination:
         {% set season_svg = '/assets/images/simple-' + season_slug + '.svg' %}
         {{ season_svg | svgContents | safe }}
         <span class="h2 c-season-info__dates">{{ post.data.dateRange }}</span>
-        <span class="h1 c-season-info__title season-item__title">{{ post.data.title }}</span>
+        <span class="h1 c-season-info__title season-item__title">
+          {{ post.data.title }}
+          <svg focusable="false" aria-hidden="true" class="season-item__arrow" viewBox="0 0 11 16" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="#right-arrow" />
+          </svg>
+        </span>
       </a>
     </li>
   {% endfor %}

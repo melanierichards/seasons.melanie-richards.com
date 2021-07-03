@@ -4,6 +4,70 @@
  *  =============================================
  */
 
+/*
+ *  --------------------------------------------
+ *  COLOR
+ *  --------------------------------------------
+ */
+
+ :root {
+  color-scheme: light dark;
+
+  --color-bg: #fcfcfc;
+  --color-body: #3b3b3b;
+  --color-home-link-hover: #000;
+  --color-lines: currentColor;
+  --color-link: #000;
+  --color-link-hover: #fff;
+  --color-link-hover-bg: rgba(0, 0, 0, .66);
+  --color-pagination-link-border: rgba(0,0,0,0);
+  --color-pagination-link-hover: #000;
+  --color-pagination-link-hover-border: rgba(0,0,0,.5);
+  --color-selection: #fff;
+  --color-selection-bg: rgba(0, 0, 0, .66);
+
+  --color-late-winter: #edf3f4;
+  --color-early-spring: #f2f7f4;
+  --color-late-spring: #f4f8f3;
+  --color-early-summer: #f2f2f0;
+  --color-late-summer: #f2f1f0;
+  --color-early-autumn: #f4f2f2;
+  --color-late-autumn: #f2f0f1;
+  --color-early-winter: #f2f2f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1b1b1b;
+    --color-body: #a2a2a2;
+    --color-home-link-hover: #e2e2e2;
+    --color-lines: rgba(255, 255, 255, .2);
+    --color-link: #c2c2c2;
+    --color-link-hover: #000;
+    --color-link-hover-bg: rgba(255, 255, 255, .66);
+    --color-pagination-link-border: rgba(255,255,255,0);
+    --color-pagination-link-hover-border: rgba(255,255,255,.5);
+    --color-pagination-link-hover: #e2e2e2;
+    --color-selection: #000;
+    --color-selection-bg: rgba(255, 255, 255, .5);
+
+    --color-late-winter: #242626;
+    --color-early-spring: #242625;
+    --color-late-spring: #252624;
+    --color-early-summer: #262624;
+    --color-late-summer: #262524;
+    --color-early-autumn: #262424;
+    --color-late-autumn: #262425;
+    --color-early-winter: #242426;
+  }
+}
+
+/*
+ *  --------------------------------------------
+ *  BASICS
+ *  --------------------------------------------
+ */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +79,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font: 1em/1.5 $font-body;
-  background-color: #fcfcfc;
-  color: #3b3b3b;
+  background-color: var(--color-bg);
+  color: var(--color-body);
 }
 
 :focus {
@@ -25,25 +89,25 @@ body {
 }
 
 ::selection {
-  background: rgba(0, 0, 0, .66);
-  color: #fff;
+  background: var(--color-selection-bg);
+  color: var(--color-selection);
 }
 
 ::-moz-selection {
-  background: rgba(0, 0, 0, .66);
-  color: #fff;
+  background: var(--color-selection-bg);
+  color: var(--color-selection);
 }
 
 a:link, a:visited {
   border-bottom: 1px solid;
   text-decoration: none;
-  color: #000;
+  color: var(--color-link);
 }
 
 a:hover {
   border-bottom: 1px dashed transparent;
-  background: rgba(0, 0, 0, .66);
-  color: #fff;
+  background: var(--color-link-hover-bg);
+  color: var(--color-link-hover);
 }
 
 /*
@@ -95,11 +159,11 @@ p, ul, ol {
 }
 
 .site-header {
-  border-bottom: 3px double;
+  border-bottom: 3px double var(--color-lines);
 }
 
 .site-footer {
-  border-top: 3px double;
+  border-top: 3px double var(--color-lines);
   font-size: .875em;
 }
 
@@ -116,7 +180,7 @@ p, ul, ol {
   &:hover {
     border-bottom: 3px solid;
     background-color: transparent;
-    color: #000;
+    color: var(--color-home-link-hover);
   }
 }
 
