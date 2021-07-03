@@ -15,7 +15,9 @@ pagination:
   {% for post in posts %}
     <li class="season-item">
       <a href="{{ post.url }}" class="season-item__link season-item__link--{{ post.data.title | slug }}">
-        <img class="season-item__icon" src="/assets/images/season-icon-{{ post.data.title | slug }}.svg" alt="">
+        {% set season_slug = post.data.title | slug %}
+        {% set season_svg = '/assets/images/simple-' + season_slug + '.svg' %}
+        {{ season_svg | svgContents | safe }}
         <span class="h2 season-item__dates">{{ post.data.dateRange }}</span>
         <span class="season-item__title">{{ post.data.title }}</span>
       </a>

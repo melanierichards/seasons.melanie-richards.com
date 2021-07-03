@@ -1,9 +1,14 @@
+const svgContents = require("eleventy-plugin-svg-contents");
+
 module.exports = function (eleventyConfig) {
 
   // UNIVERSAL
 
   // Don't try to build asset files, just transparently copy them through
   eleventyConfig.addPassthroughCopy('assets');
+
+  // Insert SVG contents
+  eleventyConfig.addPlugin(svgContents);
 
   // Prettify slug names
   eleventyConfig.addFilter('prettySlugName', function (value) {

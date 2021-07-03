@@ -61,12 +61,6 @@
   border-bottom: 0;
 }
 
-.season-item__icon {
-  width: 100%;
-  max-width: 16rem;
-  height: auto;
-}
-
 .season-item__dates {
   @include all-caps();
   display: block;
