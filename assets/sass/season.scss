@@ -19,7 +19,7 @@
 }
 
 .season-section + .season-section {
-  border-top: 1px solid;
+  border-top: 1px solid var(--color-lines);
 }
 
 .season-masthead .c-season-info__icon {
@@ -71,7 +71,7 @@
 
   .season-section + .season-section {
     border-top: 0;
-    border-left: 1px solid;
+    border-left: 1px solid var(--color-lines);
   }
 }
 
@@ -95,7 +95,7 @@
   justify-content: center;
   grid-gap: $space-m;
   padding: $space-s;
-  border-top: 1px solid;
+  border-top: 1px solid var(--color-lines);
   font: 1rem/1 $font-heading;
 
   a:link, a:visited {
