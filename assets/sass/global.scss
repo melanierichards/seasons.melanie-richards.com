@@ -107,8 +107,16 @@ p, ul, ol {
   font: 1.5em/1.1 $font-heading;
 }
 
-.site-header__home:link, .site-header__home:visited {
-  border-bottom: 0;
+.site-header__home {
+  &:link, &:visited {
+    border-bottom: 3px dashed transparent;
+  }
+
+  &:hover {
+    border-bottom: 3px solid;
+    background-color: transparent;
+    color: #000;
+  }
 }
 
 .site-footer__github {
