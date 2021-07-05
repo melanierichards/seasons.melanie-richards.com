@@ -157,3 +157,30 @@
 .season-item__link--early-winter:focus {
   background-color: var(--color-early-winter);
 }
+
+/*
+ *  --------------------------------------------
+ *  FORCED COLOR MODES
+ *  CurrenColor styles can be removed when UAs implement: 
+ *  https://github.com/w3c/csswg-drafts/issues/6310
+ *  --------------------------------------------
+ */
+
+@media (forced-colors: active) {
+  .c-season-info__icon {
+    circle, ellipse, line, path, polygon, polyline, rect {
+      stroke: LinkText;
+      fill: Canvas;
+    }
+  }
+
+  .c-season-info__icon--late-summer {
+    circle, ellipse, line, path, polygon, polyline, rect {
+      fill: transparent;
+    }
+
+    .svg__fill-shape {
+      fill: LinkText;
+    }
+  }
+}
