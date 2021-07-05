@@ -110,6 +110,19 @@ a:hover {
   color: var(--color-link-hover);
 }
 
+@media (min-width: $bp-m) and (max-width: $bp-l),
+       (min-width: $bp-xxl) {
+  body {
+    font-size: 1.125em;
+  }
+}
+
+@media (min-width: $bp-xxxl) {
+  body {
+    font-size: 1.25em;
+  }
+}
+
 /*
  *  --------------------------------------------
  *  TEXT
