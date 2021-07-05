@@ -14,10 +14,14 @@
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
-  <meta name="twitter:site" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@soMelanieSaid">
 
   <meta property="og:url" content="{{ site.url }}{{ url }}">
   <meta name="twitter:url" content="{{ site.url }}{{ url }}">
+  <meta name="og:image" content="{{ site.url }}/assets/images/site-icon-512.png">
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/site-icon-512.png">
+  <meta name="twitter:image:alt" content="Sea Seasons W / S / S / A surrounded by a circle divided into eighths">
   
   {% if title %}
     <meta property="og:title" content="{{ title }}">
@@ -30,31 +34,16 @@
   {% if description %}
     <meta property="og:description" content="{{ description }}">
     <meta property="twitter:description" content="{{ description }}">
-  {% endif %}
-
-  {% if featureSrc and featureExt %}
-    <meta property="og:image" content="{{ site.url }}{{ site.images }}/content/{{ featureSrc}}-m.{{ featureExt }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:src" content="{{ site.url }}{{ site.images }}/content/{{ featureSrc}}-m.{{ featureExt }}">
-    {% if featureAlt %}
-      <meta name="twitter:image:alt" content="{{ featureAlt }}">
-    {% endif %}
   {% else %}
-    <meta name="og:image" content="{{ site.url }}/assets/images/favicon.png">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/favicon.png">
-    <meta name="twitter:image:alt" content="Melanie Richards’s fiber crafts favicon">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="twitter:description" content="{{ site.description }}">
   {% endif %}
 
-  <!-- IF RSS
-  <link rel="alternate" type="application/rss+xml" title="" href="">
-  -->
   <link rel="canonical" href="{{ site.url }}{{ url }}">
 
   <!-- ICONS -->
-  <link rel="icon" href="/assets/images/favicon.ico">
-  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"> <!-- 180 x 180 -->
+  <link rel="icon" href="/assets/images/site-icon-32.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/images/site-icon-180.png"> <!-- Apple touch icon -->
   <link rel="manifest" href="/manifest.webmanifest">
 
   <!-- STYLE -->
