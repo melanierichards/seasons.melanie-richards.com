@@ -10,8 +10,8 @@
           {% else %}
             {{ item.text }}
           {% endif %}
-          {% if item.desc %}
-            <p class="c-idea__desc">{{ item.desc }}</p>
+          {% if item.dates or item.desc %}
+            <p class="c-idea__desc"><b>{{ item.dates}}</b> {{ item.desc }}</p>
           {% endif %}
         {% endif %}
       </li>

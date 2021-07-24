@@ -1,4 +1,115 @@
 {
+  "solsticeTitle": "Litha",
+  "solsticeDesc": "Litha is the summer solstice, the longest day of the year. Old Celtic traditions believed that the “faerie realm” was most accessible on this night.",
+  "solsticeIdeas": [
+    {
+      "text": "Go strawberry picking"
+    },
+    {
+      "text": "Have an evening bonfire"
+    },
+    {
+      "text": "Hold a potluck"
+    },
+    {
+      "text": "Make an elderberry cocktail or lemonade"
+    }
+  ],
+  "events": [
+    {
+      "text": "Capitol Hill Block Party",
+      "url": "https://www.capitolhillblockparty.com/"
+    },
+    {
+      "text": "Festál",
+      "url": "http://www.seattlecenter.com/events/featured-events/festal",
+      "desc": "Cultural festivals held throughout the year at Seattle Center"
+    },
+    {
+      "text": "Fremont Solstice",
+      "url": "https://fremontfair.com/",
+      "desc": "Gotta catch the parade!"
+    },
+    {
+      "text": "Seafair Indian Days Powwow",
+      "url": "https://www.unitedindians.org/events/powwow/"
+    },
+    {
+      "text": "Seattle International Beerfest",
+      "url": "http://www.seattlebeerfest.com/"
+    },
+    {
+      "text": "Seattle Pride",
+      "url": "https://seattlepride.org/"
+    },
+    {
+      "text": "Seattle Street Food Festival",
+      "url": "https://www.seattlestfoodfest.com/"
+    },
+    {
+      "text": "Sequim Lavender Festival",
+      "url": "https://www.visitsunnysequim.com/166/Lavender-Weekend-and-2021-Lavender-Seaso"
+    }
+  ],
+  "activities": [
+    {
+      "text": "Bake a fruit pie"
+    },
+    {
+      "text": "Go berrypicking"
+    },
+    {
+      "text": "Go camping and hiking"
+    },
+    {
+      "text": "Go kayaking"
+    },
+    {
+      "text": "Go wine tasting"
+    },
+    {
+      "text": "Grill some things!"
+    },
+    {
+      "text": "Have a picnic"
+    },
+    {
+      "text": "Make ice cream"
+    },
+    {
+      "text": "Make sangria"
+    },
+    {
+      "text": "Make s’mores"
+    },
+    {
+      "text": "Read some low-brow fiction"
+    },
+    {
+      "text": "Rent a cabin"
+    },
+    {
+      "text": "Shop at the farmer’s market"
+    },
+    {
+      "text": "Swim in the lake"
+    },
+    {
+      "text": "Take a boat ride"
+    },
+    {
+      "text": "Visit Alki Beach"
+    },
+    {
+      "text": "Visit the Locks and Discovery Park"
+    },
+    {
+      "text": "Watch fireworks on the 4th of July"
+    },
+    {
+      "text": "Watch the sunset"
+    }
+  ],
   "produce": [
     "Apricots",
     "Arugula",
