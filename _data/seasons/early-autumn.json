@@ -1,4 +1,77 @@
 {
+  "activities": [
+    {
+      "text": "Bake an apple pie"
+    },
+    {
+      "text": "Cook soup and roast vegetables"
+    },
+    {
+      "text": "Drink hot apple cider"
+    },
+    {
+      "text": "Go apple picking"
+    },
+    {
+      "text": "Go to a haunted house"
+    },
+    {
+      "text": "Hike to see fall foliage or mushrooms"
+    },
+    {
+      "text": "Host a board game or card night"
+    },
+    {
+      "text": "Put together a jigsaw puzzle"
+    },
+    {
+      "text": "Read a scary book"
+    },
+    {
+      "text": "Roast chestnuts"
+    },
+    {
+      "text": "Roast pumpkin seeds"
+    },
+    {
+      "text": "Shop at the farmer's market"
+    },
+    {
+      "text": "Start knitting projects for the year"
+    },
+    {
+      "text": "Visit a pumpkin patch"
+    },
+    {
+      "text": "Visit the Locks and Discovery Park"
+    },
+    {
+      "text": "Watch scary movies"
+    }
+  ],
+  "events": [
+    {
+      "text": "Festál",
+      "url": "http://www.seattlecenter.com/events/featured-events/festal",
+      "desc": "Cultural festivals held throughout the year at Seattle Center"
+    },
+    {
+      "text": "Refract",
+      "url": "https://refractseattle.org/",
+      "dates": "Oct 14–17",
+      "desc": "A festival of glass arts"
+    },
+    {
+      "text": "Seattle Queer Film Festival",
+      "url": "https://threedollarbillcinema.org/seaqueerfilmfest",
+      "dates": "Oct 14–24"
+    },
+    {
+      "text": "Seattle Restaurant Week",
+      "url": "https://srweek.org/",
+      "dates": "Oct 24–Nov 6"
+    }
+  ],
   "produce": [
     "Apples",
     "Artichokes",

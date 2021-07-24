@@ -1,4 +1,61 @@
 {
+  "activities": [
+    {
+      "text": "Bake an apple pie"
+    },
+    {
+      "text": "Cook soup and roast vegetables"
+    },
+    {
+      "text": "Drink hot apple cider"
+    },
+    {
+      "text": "Hike closer to the city"
+    },
+    {
+      "text": "Host a board game or card night"
+    },
+    {
+      "text": "Put together a jigsaw puzzle"
+    },
+    {
+      "text": "Roast chestnuts"
+    },
+    {
+      "text": "Roast pumpkin seeds"
+    },
+    {
+      "text": "Shop at the farmer's market"
+    }
+  ],
+  "events": [
+    {
+      "text": "Best of the Northwest",
+      "url": "https://nwartalliance.org/nwaa-events",
+      "desc": "Art market featuring local artists and artisans"
+    },
+    {
+      "text": "Christmas Ship Festival",
+      "url": "https://www.argosycruises.com/argosy-cruises/christmas-ship-festival/"
+    },
+    {
+      "text": "Festál",
+      "url": "http://www.seattlecenter.com/events/featured-events/festal",
+      "desc": "Cultural festivals held throughout the year at Seattle Center"
+    },
+    {
+      "text": "Short Run",
+      "url": "http://shortrun.org/",
+      "desc": "My favorite comics and small press convention",
+      "dates": "Postponed to 2022"
+    },
+    {
+      "text": "Urban Craft Uprising",
+      "url": "https://urbancraftuprising.com/",
+      "desc": "Arts and crafts market",
+      "dates": "Dec 4–5"
+    }
+  ],
   "produce": [
     "Apples",
     "Artichokes",
