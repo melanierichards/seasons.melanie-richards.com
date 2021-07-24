@@ -1,4 +1,73 @@
 {
+  "solsticeTitle": "Ostara",
+  "solsticeDesc": "Ostara celebrates the coming of spring. This is a good time to plant seeds for future intentions, investments that will be realized come late spring and summer.",
+  "solsticeIdeas": [
+    {
+      "text": "Start taking action on ideas and goals"
+    },
+    {
+      "text": "Spring cleaning"
+    },
+    {
+      "text": "Make an egg salad and have a picnic"
+    },
+    {
+      "text": "Plant (literal) seeds"
+    },
+    {
+      "text": "Journal about goals and intentions"
+    }
+  ],
+  "activities": [
+    {
+      "text": "",
+      "url": ""
+    },
+    {
+      "text": "Go bird watching"
+    },
+    {
+      "text": "Go see the cherry blossoms at the UW campus"
+    },
+    {
+      "text": "Have an outdoor tea party"
+    },
+    {
+      "text": "Have a picnic"
+    },
+    {
+      "text": "Say hi to the ducks at the park"
+    },
+    {
+      "text": "Visit the Locks and Discovery Park"
+    },
+    {
+      "text": "Visit the Arboretum"
+    },
+    {
+      "text": "Walk around the neighborhood looking for signs of spring"
+    }
+  ],
+  "events": [
+    {
+      "text": "Best of the Northwest",
+      "url": "https://nwartalliance.org/nwaa-events",
+      "desc": "Art market featuring local artists and artisans"
+    },
+    {
+      "text": "Festál",
+      "url": "http://www.seattlecenter.com/events/featured-events/festal",
+      "desc": "Cultural festivals held throughout the year at Seattle Center"
+    },
+    {
+      "text": "Seattle Restaurant Week",
+      "url": "https://srweek.org/"
+    },
+    {
+      "text": "Skagit Valley Tulip Festival",
+      "url": "https://tulipfestival.org/"
+    }
+  ],
   "produce": [
     "Asparagus",
     "Fava beans",

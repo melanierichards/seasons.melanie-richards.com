@@ -38,9 +38,20 @@
   }
 }
 
+.c-idea__desc {
+  margin-top: $space-xxs;
+  font-size: .875em;
+}
+
 .c-ideas--solstice {
   padding-left: 1em;
   list-style: circle;
+}
+
+.c-ideas--events {
+  li + li {
+    margin-top: 1rem;
+  }
 }
 
 .c-ideas--produce {

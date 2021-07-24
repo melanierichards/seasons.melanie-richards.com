@@ -23,14 +23,71 @@
   ],
   "activities": [
     {
+      "text": "Go bird watching"
+    },
+    {
       "text": "Go hiking",
       "url": "https://wta.org"
     },
     {
-      "text": "Visit ALL the parks!"
+      "text": "Go kayaking"
+    },
+    {
+      "text": "Have an outdoor tea party"
+    },
+    {
+      "text": "Have a picnic"
     },
     {
       "text": "Keep an eye out for bunnies everywhere"
+    },
+    {
+      "text": "Say hi to the ducks at the park"
+    },
+    {
+      "text": "Say hi to the troll under Fremont Bridge"
+    },
+    {
+      "text": "Shop at the farmer's market"
+    },
+    {
+      "text": "Visit the Arboretum"
+    },
+    {
+      "text": "Visit the Locks and Discovery Park"
+    },
+    {
+      "text": "Watch the sunrise"
+    }
+  ],
+  "events": [
+    {
+      "text": "Dragon Fest",
+      "url": "https://cidbia.org/events/dragonfest/",
+      "desc": "A celebration of Asian American culture, with cultural performances and street food"
+    },
+    {
+      "text": "Festál",
+      "url": "http://www.seattlecenter.com/events/featured-events/festal",
+      "desc": "Cultural festivals held throughout the year at Seattle Center"
+    },
+    {
+      "text": "Opening day of boating season",
+      "url": "https://seattleyachtclub.org/web/pages/opening-day",
+      "desc": "Boat parade!"
+    },
+    {
+      "text": "Seattle International Film Festival (SIFF)",
+      "url": "https://www.siff.net/"
+    },
+    {
+      "text": "Seattle Maritime Festival",
+      "url": "https://www.seattlemaritime101.com/seattle-maritime-festival/",
+      "desc": "Lots of fun and interesting activities in and around boats and the sea"
+    },
+    {
+      "text": "Washington Brewers Festival",
+      "url": "https://www.washingtonbeer.com/festivals/washington-brewers-festival.php"
     }
   ],
   "produce": [
