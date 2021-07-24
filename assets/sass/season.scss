@@ -28,6 +28,11 @@
 
 .season-masthead__desc {
   text-align: left;
+
+  ul {
+    padding-left: 1em;
+    list-style: circle;
+  }
 }
 
 .c-ideas {
@@ -41,11 +46,6 @@
 .c-idea__desc {
   margin-top: $space-xxs;
   font-size: .875em;
-}
-
-.c-ideas--solstice {
-  padding-left: 1em;
-  list-style: circle;
 }
 
 .c-ideas--events {

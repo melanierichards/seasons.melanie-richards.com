@@ -17,22 +17,15 @@ layout: layouts/global.njk
     {{ season_svg | svgContents | safe }}
     <div class="season-masthead__desc">{{ content | safe }}</div>
   </div>
-
-  <div class="season-section">
-    <h2>{{ seasonData.solsticeTitle }}</h2>
-    <p>{{ seasonData.solsticeDesc }}</p>
-    <p>Ideas for {{ seasonData.solsticeTitle }}:</p>
-    {% set ideaListSlug = "solstice" %}
-    {% set ideaList = seasonData.solsticeIdeas %}
-    {% include "c-ideas.njk" %}
-  </div>
-
+  
   <div class="season-section">
     <h2>Activities</h2>
     {% set ideaListSlug = "activities" %}
     {% set ideaList = seasonData.activities %}
     {% include "c-ideas.njk" %}
+  </div>
 
+  <div class="season-section">
     <h2>Events</h2>
     {% set ideaListSlug = "events" %}
     {% set ideaList = seasonData.events %}
