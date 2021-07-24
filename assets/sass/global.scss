@@ -178,6 +178,13 @@ p, ul, ol {
 .site-footer {
   border-top: 3px double var(--color-lines);
   font-size: .875em;
+
+  p {
+    margin: 0 auto;
+    max-width: 42rem;
+    text-align: left;
+    line-height: 1.6;
+  }
 }
 
 .site-header__home {
