@@ -16,6 +16,9 @@
       "text": "Host a board game or card night"
     },
     {
+      "text": "Look for the first frost"
+    },
+    {
       "text": "Put together a jigsaw puzzle"
     },
     {
@@ -39,6 +42,12 @@
       "url": "https://www.argosycruises.com/argosy-cruises/christmas-ship-festival/"
     },
     {
+      "text": "Emerald City Comic Con",
+      "url": "https://www.emeraldcitycomiccon.com/",
+      "dates": "Dec 2–5",
+      "desc": "Usually held in March."
+    },
+    {
       "text": "Festál",
       "url": "http://www.seattlecenter.com/events/featured-events/festal",
       "desc": "Cultural festivals held throughout the year at Seattle Center"
@@ -52,7 +61,7 @@
     {
       "text": "Urban Craft Uprising",
       "url": "https://urbancraftuprising.com/",
-      "desc": "Arts and crafts market",
+      "desc": "Arts and crafts market; good opportunity to support local artists/artisans and buy handmade holiday gifts",
       "dates": "Dec 4–5"
     }
   ],

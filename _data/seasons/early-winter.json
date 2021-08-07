@@ -1,4 +1,59 @@
 {
+  "activities": [
+    {
+      "text": "Bake cookies"
+    },
+    {
+      "text": "Cook soup and roast vegetables"
+    },
+    {
+      "text": "Decorate for the holidays"
+    },
+    {
+      "text": "Go ice skating"
+    },
+    {
+      "text": "Host a board game or card night"
+    },
+    {
+      "text": "Knit"
+    },
+    {
+      "text": "Listen to Christmas music"
+    },
+    {
+      "text": "Make Chex mix"
+    },
+    {
+      "text": "Make hot chocolate"
+    },
+    {
+      "text": "Make mulled wine"
+    },
+    {
+      "text": "Put together a jigsaw puzzle"
+    },
+    {
+      "text": "Take a cooking class"
+    },
+    {
+      "text": "Take a walk after dinner and enjoy the lights the city puts up on trees in main streets"
+    },
+    {
+      "text": "Volunteer indoors"
+    }
+  ],
+  "events": [
+    {
+      "text": "Festál",
+      "url": "http://www.seattlecenter.com/events/featured-events/festal",
+      "desc": "Cultural festivals held throughout the year at Seattle Center"
+    },
+    {
+      "text": "Reading weekend",
+      "desc": "Really not much going on this time of year; hold your own reading weekend late January or early February"
+    }
+  ],
   "produce": [
     "Arugula",
     "Beets",
