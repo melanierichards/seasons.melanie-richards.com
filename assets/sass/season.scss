@@ -180,6 +180,16 @@
       outline: 2px solid;
     }
   }
+
+  /* Add margin to account for layout of circle decoration; there's a visually-hidden heading as the first child */
+  &:nth-child(2) {
+    margin-top: .75rem;
+  }
+
+  /* Also if the last element */
+  &:last-child {
+    margin-bottom: .75rem;
+  }
 }
 
 .c-pagination__newer {
@@ -209,6 +219,11 @@
   .c-pagination__all {
     grid-column: 2;
     justify-self: center;
+
+    &:nth-child(2),
+    &:last-child {
+      margin: 0;
+    }
   }
 
   .c-pagination__newer {
