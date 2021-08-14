@@ -1,5 +1,5 @@
 {% if ideaList|length > 0 %}
-  <ul role="list" class="c-ideas c-ideas--{{ ideaListSlug }}">
+  <ul role="list" class="c-ideas c-ideas--{{ ideaListSlug }}" aria-labelledby="{{ ideaListSlug }}-title">
     {% for item in ideaList %}
       <li>
         {% if ideaListSlug == "produce" %}

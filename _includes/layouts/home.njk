@@ -6,12 +6,12 @@ pagination:
   alias: posts
 ---
 
-<h1 class="u-vis-hidden">{{ title }}</h1>
+<h1 id="home-title" class="u-vis-hidden">{{ title }}</h1>
 <div class="site-masthead">
   {{ content | safe }}
 </div>
 
-<ul class="u-bare-list season-items">
+<ul class="u-bare-list season-items" aria-labelledby="home-title">
   {% for post in posts %}
     <li class="c-season-info season-item">
       <a href="{{ post.url }}" class="season-item__link season-item__link--{{ post.data.title | slug }}">

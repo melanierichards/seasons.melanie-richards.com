@@ -19,21 +19,21 @@ layout: layouts/global.njk
   </div>
   
   <div class="season-section">
-    <h2>Activities</h2>
+    <h2 id="activities-title">Activities</h2>
     {% set ideaListSlug = "activities" %}
     {% set ideaList = seasonData.activities %}
     {% include "c-ideas.njk" %}
   </div>
 
   <div class="season-section">
-    <h2>Events</h2>
+    <h2 id="events-title">Events</h2>
     {% set ideaListSlug = "events" %}
     {% set ideaList = seasonData.events %}
     {% include "c-ideas.njk" %}
   </div>
 
   <div class="season-section">
-    <h2>Produce</h2>
+    <h2 id="produce-title">Produce</h2>
     {% set ideaListSlug = "produce" %}
     {% set ideaList = seasonData.produce %}
     {% include "c-ideas.njk" %}
