@@ -20,27 +20,4 @@ module.exports = function (eleventyConfig) {
     }
     return prettyString.join(' ');
   });
-
-  // DATE FILTERS
-
-  // Machine-readable dates
-  /*
-      eleventyConfig.addFilter("machineDate", function(value) {
-        return DateTime.fromJSDate(value, {zone: 'utc'}).toISO();
-      });
-      */
-
-  // Prettify dates
-  /*
-      eleventyConfig.addFilter("prettyDate", function(value) {
-        return DateTime.fromJSDate(value, {zone: 'utc'}).toFormat('MMM dd, yyyy');
-      });
-      */
-
-  // Prettify ISO dates
-  /*
-      eleventyConfig.addFilter("prettyISODate", function(value) {
-        return DateTime.fromISO(value, {zone: 'utc'}).toFormat('MMM dd, yyyy');
-      });
-      */
 };

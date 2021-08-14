@@ -2,12 +2,6 @@
 
 Ideas for living according to the seasons in the Pacific Northwest
 
-## Setup Checklist
-
-* [ ] Go thru eleventy.js and un-comment or delete utilities; move require statements to top of file
-* [ ] Update head.njk with any info for: RSS, social metadata, icons
-* [ ] Update images referenced in manifest.webmanifest
-
 -------------------------------------------------------------
 
 ## To build
@@ -28,28 +22,6 @@ Ideas for living according to the seasons in the Pacific Northwest
 | npm run lint               | Run eslint                   |
 | npm run lint:fix           | Run eslint and fix issues    |
 | npm run validate           | Run html-validate            |
-
-## Media
-
-### Blog image sizes
-
-| Size | PX width |
-| ---: | -------: |
-| s    | 600      |
-| m    | 800      |
-| l    | 1200     |
-| xl   | 2000     |
-
-### Responsive image include
-
-Filename, extension, max size, alt text, classes:
-
-```
-{% responsiveImage "melanierichards-", "jpg", "xl", "Alt", "" %}
-```
-
-* Max size can be `l` or `xl`
-* Classes can include `c-media--limit-width`
 
 ## Reference
 
