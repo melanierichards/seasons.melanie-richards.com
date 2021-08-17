@@ -2,6 +2,10 @@
 
 Ideas for living according to the seasons in the Pacific Northwest
 
+![A home page where there are tiles for eight segments of the year: early and late winter, spring, summer, and autumn.](/assets/images/melanierichards-seasons-xl.png)
+
+[seasons.melanie-richards.com](https://seasons.melanie-richards.com)
+
 -------------------------------------------------------------
 
 ## To build
