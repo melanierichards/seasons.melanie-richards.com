@@ -112,6 +112,12 @@
   }
 }
 
+@media (min-width: $bp-xxxl) {
+  .site-masthead {
+    max-width: 54rem;
+  }
+}
+
 /*
  *  --------------------------------------------
  *  SEASON ITEM BACKGROUNDS

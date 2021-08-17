@@ -176,15 +176,20 @@ p, ul, ol {
 }
 
 .site-footer {
+  padding: $space-m;
   border-top: 3px double var(--color-lines);
   font-size: .875em;
+}
 
-  p {
-    margin: 0 auto;
-    max-width: 42rem;
-    text-align: left;
-    line-height: 1.6;
-  }
+.site-footer__colophon {
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.site-footer__colophon,
+.notifs {
+  max-width: 42rem;
 }
 
 .site-header__home {
@@ -210,6 +215,80 @@ p, ul, ol {
 
 .icon-defs {
   display: none;
+}
+
+@media (min-width: $bp-xxxl) {
+  .site-footer__colophon,
+  .notifs {
+    max-width: 54rem;
+  }
+}
+
+/*
+ *  --------------------------------------------
+ *  NOTIFICATIONS
+ *  --------------------------------------------
+ */
+
+.notifs {
+  margin: 0 auto $space-s;
+  padding-bottom: $space-s;
+  border-bottom: 1px solid;
+}
+
+/* Used outline instead of a double border because the rendering looked eh */
+.notifs__subscribe {
+  @include all-caps;
+
+  margin: 0 auto;
+  padding: $space-xxs;
+  border: 1px solid currentColor;
+  outline: 1px solid var(--color-body);
+  outline-offset: 2px;
+  font: 1em/1 $font-heading;
+  color: var(--color-body);
+  background: transparent;
+
+  &:hover {
+    color: var(--color-bg);
+    background: var(--color-body);
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: 2px solid currentColor;
+  }
+}
+
+.notifs__desc {
+  margin: $space-s auto 0;
+  text-align: left;
+}
+
+.notifs__status {
+  text-align: left;
+}
+
+@media (min-width: $bp-l) {
+  .notifs {
+    display: flex;
+    align-items: center;
+  }
+
+  .notifs__subscribe {
+    margin: 0 $space-s 0 0;
+  }
+
+  .notifs__desc {
+    flex: 1;
+    margin: 0;
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .notifs__desc {
+    font-size: .9em;
+  }
 }
 
 /*
