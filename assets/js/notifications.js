@@ -19,49 +19,49 @@ const seasons = [
     title: 'Late Winter',
     sabbat: 'Imbolc',
     emoji: '🕯️',
-    date: '01 Feb 2021 00:09:30'
+    date: '01 Feb 2022 00:09:30'
   },
   {
     title: 'Early Spring',
     sabbat: 'Ostara',
     emoji: '🍀',
-    date: '20 Mar 2021 00:09:30'
+    date: '20 Mar 2022 00:09:30'
   },
   {
     title: 'Late Spring',
     sabbat: 'Beltane',
     emoji: '💐',
-    date: '30 Apr 2021 00:09:30'
+    date: '30 Apr 2022 00:09:30'
   },
   {
     title: 'Early Summer',
     sabbat: 'Litha',
     emoji: '🔥',
-    date: '20 Jun 2021 00:09:30'
+    date: '21 Jun 2022 00:09:30'
   },
   {
     title: 'Late Summer',
     sabbat: 'Lammas',
     emoji: '🌾',
-    date: '31 Jul 2021 00:09:30'
+    date: '08 Aug 2022 00:09:30'
   },
   {
     title: 'Early Autumn',
     sabbat: 'Mabon',
     emoji: '🍎',
-    date: '21 Sep 2021 00:09:30'
+    date: '22 Sep 2022 00:09:30'
   },
   {
     title: 'Late Autumn',
     sabbat: 'Samhain',
     emoji: '🎃',
-    date: '31 Oct 2021 00:09:30'
+    date: '31 Oct 2022 00:09:30'
   },
   {
     title: 'Early Winter',
     sabbat: 'Yule',
     emoji: '🎄',
-    date: '21 Dec 2021 00:09:30'
+    date: '21 Dec 2022 00:09:30'
   }
 ];
 
