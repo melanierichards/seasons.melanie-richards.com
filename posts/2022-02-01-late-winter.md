@@ -1,7 +1,7 @@
 ---
 title: Late Winter
-date: 2021-02-01
-dateRange: Feb 01 – Mar 19, 2021
+date: 2022-02-01
+dateRange: Feb 01 – Mar 19, 2022
 ---
 
 Winter is a period of dormancy, a time to restore your energy after a full and busy year. Take this opportunity to slow down, relax a little, and take comfort.

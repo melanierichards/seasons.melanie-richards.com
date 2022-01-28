@@ -1,7 +1,7 @@
 ---
 title: Early Winter
-date: 2021-12-21
-dateRange: Dec 21, 2021 – Jan 31, 2022
+date: 2022-12-21
+dateRange: Dec 21, 2022 – Jan 31, 2023
 ---
 
 Winter is a period of dormancy, a time to restore your energy after a full and busy year. Take this opportunity to slow down, relax a little, and take comfort.
