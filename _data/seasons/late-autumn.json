@@ -42,12 +42,6 @@
       "url": "https://www.argosycruises.com/argosy-cruises/christmas-ship-festival/"
     },
     {
-      "text": "Emerald City Comic Con",
-      "url": "https://www.emeraldcitycomiccon.com/",
-      "dates": "Dec 2–5",
-      "desc": "Usually held in March."
-    },
-    {
       "text": "Festál",
       "url": "http://www.seattlecenter.com/events/featured-events/festal",
       "desc": "Cultural festivals held throughout the year at Seattle Center"
@@ -56,13 +50,12 @@
       "text": "Short Run",
       "url": "http://shortrun.org/",
       "desc": "My favorite comics and small press convention",
-      "dates": "Postponed to 2022"
+      "dates": "Nov 5"
     },
     {
       "text": "Urban Craft Uprising",
       "url": "https://urbancraftuprising.com/",
-      "desc": "Arts and crafts market; good opportunity to support local artists/artisans and buy handmade holiday gifts",
-      "dates": "Dec 4–5"
+      "desc": "Arts and crafts market; good opportunity to support local artists/artisans and buy handmade holiday gifts"
     }
   ],
   "produce": [
