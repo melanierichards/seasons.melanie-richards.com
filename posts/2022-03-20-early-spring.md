@@ -16,4 +16,4 @@ Ideas for Ostara:
 * Spring cleaning
 * Make an egg salad and have a picnic
 * Plant (literal) seeds
-* Journal about goals and intentions*
+* Journal about goals and intentions
