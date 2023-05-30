@@ -1,7 +1,7 @@
 ---
 title: Late Summer
-date: 2022-08-01
-dateRange: Aug 01 – Sep 21, 2022
+date: 2023-08-01
+dateRange: Aug 01 – Sep 21, 2023
 ---
 
 Summer is a time of abundance and growth. This is a good season to push forward on progress towards goals.

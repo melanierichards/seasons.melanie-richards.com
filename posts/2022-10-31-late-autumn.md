@@ -1,7 +1,7 @@
 ---
 title: Late Autumn
-date: 2022-10-31
-dateRange: Oct 31 – Dec 20, 2022
+date: 2023-10-31
+dateRange: Oct 31 – Dec 20, 2023
 ---
 
 Fall is the harvest season, a time to take stock of goals and how much progress you were able to make. Celebrate the successes and mull over how to make more progress next time. Consider what’s not working and clear it away.

@@ -1,7 +1,7 @@
 ---
 title: Early Summer
-date: 2022-06-20
-dateRange: Jun 21 – Jul 31, 2022
+date: 2023-06-21
+dateRange: Jun 21 – Jul 31, 2023
 ---
 
 Summer is a time of abundance and growth. This is a good season to push forward on progress towards goals.
