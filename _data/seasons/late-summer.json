@@ -64,8 +64,7 @@
   "events": [
     {
       "text": "Emerald City Comic Con",
-      "url": "https://www.emeraldcitycomiccon.com/",
-      "dates": "Aug 18–21"
+      "url": "https://www.emeraldcitycomiccon.com/"
     },
     {
       "text": "Festál",
@@ -74,8 +73,7 @@
     },
     {
       "text": "Fremont Oktoberfest",
-      "url": "https://fremontoktoberfest.com/",
-      "dates": "Sep 16–18"
+      "url": "https://fremontoktoberfest.com/"
     },
     {
       "text": "Nordic Sól",
