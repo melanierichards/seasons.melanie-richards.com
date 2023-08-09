@@ -188,7 +188,7 @@ p, ul, ol {
 }
 
 .site-footer__colophon,
-.notifs {
+.calendar {
   max-width: 42rem;
 }
 
@@ -215,7 +215,7 @@ p, ul, ol {
 
 @media (min-width: $bp-xxxl) {
   .site-footer__colophon,
-  .notifs {
+  .calendar {
     max-width: 54rem;
   }
 }
@@ -226,14 +226,14 @@ p, ul, ol {
  *  --------------------------------------------
  */
 
-.notifs {
+.calendar {
   margin: 0 auto $space-s;
   padding-bottom: $space-s;
   border-bottom: 1px solid;
 }
 
 /* Used outline instead of a double border because the rendering looked eh */
-.notifs__subscribe {
+.calendar__subscribe {
   @include all-caps;
 
   margin: 0 auto;
@@ -256,33 +256,33 @@ p, ul, ol {
   }
 }
 
-.notifs__desc {
+.calendar__desc {
   margin: $space-s auto 0;
   text-align: left;
 }
 
-.notifs__status {
+.calendar__status {
   text-align: left;
 }
 
 @media (min-width: $bp-l) {
-  .notifs {
+  .calendar {
     display: flex;
     align-items: center;
   }
 
-  .notifs__subscribe {
+  .calendar__subscribe {
     margin: 0 $space-s 0 0;
   }
 
-  .notifs__desc {
+  .calendar__desc {
     flex: 1;
     margin: 0;
   }
 }
 
 @media (min-width: $bp-xl) {
-  .notifs__desc {
+  .calendar__desc {
     font-size: .9em;
   }
 }
