@@ -4,10 +4,11 @@ module.exports = function (eleventyConfig) {
 
   // UNIVERSAL
 
-  // Don't try to build asset files, just transparently copy them through
+  // Don't try to build pages from these files
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('manifest.webmanifest');
   eleventyConfig.addPassthroughCopy('service-worker.js');
+  eleventyConfig.addPassthroughCopy('robots.txt');
 
   // Insert SVG contents
   eleventyConfig.addPlugin(svgContents);
