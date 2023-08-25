@@ -7,7 +7,6 @@ module.exports = function (eleventyConfig) {
   // Don't try to build pages from these files
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('manifest.webmanifest');
-  eleventyConfig.addPassthroughCopy('service-worker.js');
   eleventyConfig.addPassthroughCopy('robots.txt');
 
   // Insert SVG contents
