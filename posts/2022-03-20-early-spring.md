@@ -1,7 +1,7 @@
 ---
 title: Early Spring
-date: 2023-03-21
-dateRange: Mar 21 – Apr 30, 2023
+date: 2024-03-19
+dateRange: Mar 19 – Apr 30, 2024
 ---
 
 Spring is a time for rebirth; for starting new projects; for revisiting goals and setting new ones. Put energy into setting intentions for the year ahead. Symbols: eggs, honey, asparagus; flowers, clover, baskets.

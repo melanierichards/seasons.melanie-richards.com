@@ -1,7 +1,7 @@
 ---
 title: Early Autumn
-date: 2023-09-22
-dateRange: Sep 22 – Oct 30, 2023
+date: 2024-09-22
+dateRange: Sep 22 – Oct 30, 2024
 ---
 
 Fall is the harvest season, a time to take stock of goals and how much progress you were able to make. Celebrate the successes and mull over how to make more progress next time. Consider what’s not working and clear it away.

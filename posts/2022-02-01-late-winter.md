@@ -1,7 +1,7 @@
 ---
 title: Late Winter
-date: 2023-02-01
-dateRange: Feb 01 – Mar 20, 2023
+date: 2024-02-01
+dateRange: Feb 01 – Mar 18, 2024
 ---
 
 Winter is a period of dormancy, a time to restore your energy after a full and busy year. Take this opportunity to slow down, relax a little, and take comfort.

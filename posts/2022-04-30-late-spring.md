@@ -1,7 +1,7 @@
 ---
 title: Late Spring
-date: 2023-05-01
-dateRange: May 1 – Jun 20, 2023
+date: 2024-05-01
+dateRange: May 1 – Jun 19, 2024
 ---
 
 Spring is a time for rebirth; for starting new projects; for revisiting goals and setting new ones. Put energy into setting intentions for the year ahead.
