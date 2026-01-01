@@ -1,7 +1,7 @@
 ---
 title: Early Summer
-date: 2024-06-20
-dateRange: Jun 20 – Jul 31, 2024
+date: 2026-06-21
+dateRange: Jun 21 – Jul 31, 2026
 ---
 
 Summer is a time of abundance and growth. This is a good season to push forward on progress towards goals.

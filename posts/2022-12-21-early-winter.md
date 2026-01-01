@@ -1,7 +1,7 @@
 ---
 title: Early Winter
-date: 2024-12-21
-dateRange: Dec 21, 2024 – Jan 31, 2025
+date: 2026-12-21
+dateRange: Dec 21, 2026 – Jan 31, 2027
 ---
 
 Winter is a period of dormancy, a time to restore your energy after a full and busy year. Take this opportunity to slow down, relax a little, and take comfort.
